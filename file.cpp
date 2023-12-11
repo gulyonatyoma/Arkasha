@@ -8,7 +8,7 @@ int main(){
     getline(my, line);
     std::cout << line << '\n';
     while(getline(my, line)){
-        std::cout << line << '\n';
+        std::cout << std::stoi(line) * 2 << '\n';
     }
     return 0;
 }
